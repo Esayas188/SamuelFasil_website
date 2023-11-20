@@ -1,0 +1,13 @@
+/* Change the color of the left control button */
+.carousel-wrapper {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0%;
+    
+  }
+  
+  /* Change the color of the right control button */
+  .carousel-wrapper .carousel-next:hover {
+    background-color: #cdf80d;
+    color: #fff;
+  }

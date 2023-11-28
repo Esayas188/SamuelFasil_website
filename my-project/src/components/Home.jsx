@@ -22,6 +22,7 @@ import About from './About';
 import Footer from './Footer';
 import Typewriter from './TypingText';
 import Gallery from './Gallery';
+import Services from './Services';
 
 
 
@@ -30,15 +31,13 @@ const Home = () => {
         <>
         <Navbar/>
         <Base/>
-        <div>
+        <Services/>
          
-
          <About/>
 
-        </div>
 
-        <div className=' pt-[20px] px-[40px] md:px-[60px]'>
-          <p className=' text-center font-extrabold text-2xl sm:text-3xl text-[#07485B]'>PROJECTS</p>
+        <div className=' px-[40px] pb-[60px] md:px-[60px]'>
+          <p className=' text-center font-extrabold text-2xl pb-[30px] sm:pb-[60px] sm:text-3xl text-[#07485B]'>PROJECTS</p>
           <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
@@ -49,7 +48,7 @@ const Home = () => {
       easing="ease-in-out"
       navigation
       pagination={{ clickable: true }}
-      className=' mb-[50px] px-[20px] py-[40px] sm:p-[80px]'
+      className=' '
 
     >
       <SwiperSlide >
@@ -68,7 +67,7 @@ const Home = () => {
 
         </div>
         <div>
-        <p className=' text-center font-extrabold text-2xl sm:text-3xl text-[#07485B]'>INTERIOR DESIGNS</p>
+        <p className=' text-center font-extrabold text-2xl sm:text-3xl text-[#07485B]  sm:py-[60px]'>INTERIOR DESIGNS</p>
         </div>
         <Gallery/>
         <Footer/>

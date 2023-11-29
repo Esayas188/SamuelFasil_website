@@ -31,13 +31,14 @@ const Home = () => {
         <>
         <Navbar/>
         <Base/>
-        <Services/>
          
          <About/>
+        <Services/>
 
 
-        <div className=' px-[40px] pb-[60px] md:px-[60px]'>
-          <p className=' text-center font-extrabold text-2xl pb-[30px] sm:pb-[60px] sm:text-3xl text-[#07485B]'>PROJECTS</p>
+
+        <div id='projects' className=' px-[40px] pb-[60px] md:px-[60px]'>
+          <p className=' text-center font-extrabold text-2xl pb-[30px] sm:pb-[60px] sm:text-3xl text-[#07264a]'>PROJECTS</p>
           <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
@@ -67,7 +68,7 @@ const Home = () => {
 
         </div>
         <div>
-        <p className=' text-center font-extrabold text-2xl sm:text-3xl text-[#07485B]  sm:py-[60px]'>INTERIOR DESIGNS</p>
+        <p className=' text-center font-extrabold text-2xl sm:text-3xl text-[#07264a]  sm:py-[60px]'>INTERIOR DESIGNS</p>
         </div>
         <Gallery/>
         <Footer/>

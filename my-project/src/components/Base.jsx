@@ -27,7 +27,7 @@ const Base = () => {
 
                 </div>
                 <div className=' flex sm:justify-center px-[40px] pt-[140px] sm:pt-[160px] md:pt-[160px] col-span-4'>
-                <p className='text-[#07264a] tracking-normal md:leading-[70px] text-4xl sm:text-5xl font-extrabold max-w-[320px]'>HI, I'M BIRUK ZELEKE, A   <span className=' text-[#b31358]'><TypingText/></span></p>
+                <p className='text-[#07264a] tracking-normal md:leading-[70px] text-4xl sm:text-5xl font-extrabold max-w-[325px]'>HI, I'M SAMUEL FASIL, <span className=' text-[#b31358]'><TypingText/></span></p>
 
 
                 </div>

@@ -1,52 +1,58 @@
+import project1 from '../img/icon/project1.jpg'
+import project2 from '../img/icon/project2.jpg'
+import project3 from '../img/icon/project3.jpg'
+import project4 from '../img/icon/project4.jpg'
+
+
 const Gallery = () => {
     return ( 
 
 
 
 
-<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:px-[60px] p-[40px]">
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:px-[60px]  p-[40px]">
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project1} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project2} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project3} alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project4} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project1} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
-        </div>
-    </div>
-    <div className="grid gap-4">
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt=""/>
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt=""/>
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project2}  alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project3} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project4}  alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={project1} alt=""/>
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src={project2} alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src={project3} alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src={project4} alt=""/>
         </div>
     </div>
 </div>

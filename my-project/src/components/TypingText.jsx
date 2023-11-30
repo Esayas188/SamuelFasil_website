@@ -19,7 +19,7 @@ const TypingText = () => {
     };
   }, []);
 
-  return <div className="typing-element"></div>;
+  return <span className="typing-element"></span>;
 };
 
 export default TypingText;

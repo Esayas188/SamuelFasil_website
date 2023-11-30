@@ -23,6 +23,8 @@ import Footer from './Footer';
 import Typewriter from './TypingText';
 import Gallery from './Gallery';
 import Services from './Services';
+import Logo from './Logo';
+
 
 
 
@@ -34,10 +36,11 @@ const Home = () => {
          
          <About/>
         <Services/>
+        <Logo/>
 
 
 
-        <div id='projects' className=' px-[40px] pb-[60px] md:px-[60px]'>
+        <div id='projects' className=' py-[40px] px-[40px] pb-[60px] md:px-[60px]'>
           <p className=' text-center font-extrabold text-2xl pb-[30px] sm:pb-[60px] sm:text-3xl text-[#07264a]'>PROJECTS</p>
           <Swiper
       // install Swiper modules
@@ -70,7 +73,11 @@ const Home = () => {
         <div>
         <p className=' text-center font-extrabold text-2xl sm:text-3xl text-[#07264a]  sm:py-[60px]'>INTERIOR DESIGNS</p>
         </div>
+        <div className='pb-[80px]'>
         <Gallery/>
+
+
+        </div>
         <Footer/>
 
 

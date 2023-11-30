@@ -60,7 +60,7 @@ const Footer = () => {
 
     </div>
     <div className="px-4 py-6 text-[#b2b4b2]  bg-[rgb(1,4,5)] dark:bg-[#060e18] md:flex md:items-center md:justify-between">
-        <span className="text-sm  sm:text-center">© 2023 <a href="#">Bruk™</a>. All Rights Reserved.
+        <span className="text-sm  sm:text-center">© 2023 <a href="#">SAMUEL™</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a href="#" className=" hover:text-white">

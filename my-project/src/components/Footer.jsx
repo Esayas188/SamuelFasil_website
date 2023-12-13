@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
 
 
-<footer className="bg-white dark:bg-[#07264a]" style={{ maxWidth: '1800px', margin: '0 auto' }}>
+<footer className="bg-white dark:bg-[#121212]" style={{ maxWidth: '1800px', margin: '0 auto' }}>
     <div className="mx-auto w-full ">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
         <div>
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
     </div>
-    <div className="px-4 py-6 text-[#b2b4b2]  bg-[rgb(1,4,5)] dark:bg-[#060e18] md:flex md:items-center md:justify-between">
+    <div className="px-4 py-6 text-[#b2b4b2]  bg-black dark:bg-black md:flex md:items-center md:justify-between">
         <span className="text-sm  sm:text-center">© 2023 <a href="#">SAMUEL™</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">

@@ -43,16 +43,16 @@ const Services = () => {
 
         <div
 
-         className='min-h-screen py-[60px] overflow-x-hidden
+         className='min-h-[700px] py-[60px] overflow-x-hidden
         [--x-from:-100vh] sm:[--scale-from:80%] [--opacity-from:0%]
         [--x-to:0px] sm:[--scale-to:100%] [--opacity-to:100%] 
-        ' id='skills '>
+        ' id='skills ' style={{ maxWidth: '1800px', margin: '0 auto' }}>
             <p className=' text-2xl font-bold text-[#07264a] text-center pb-8 md:pb-0'>SERVICES</p>
             <motion.div
             
             initial="closed"
             whileInView="open"
-             className="grid md:grid-cols-2 gap-[20px] md:gap-0 px-[60px] lg:px-[100px] text-[#07264a] min-h-screen  ">
+             className="grid md:grid-cols-2 gap-[20px] md:gap-0 px-[60px] lg:px-[100px] text-[#07264a] min-h-[600px]  ">
 
             <motion.div
 
@@ -120,7 +120,7 @@ const Services = () => {
             variants={rightvariants}
 
 
-            className="flex flex-col items-center justify-center min-h-full ">
+            className="flex flex-col items-center justify-center min-h-full " style={{ maxWidth: '1800px', margin: '0 auto' }}>
             <div className=" w-full max-w-md bg-[#07264a] text-[#b2b4b2] rounded-lg  p-6">
                 <h2 className="text-2xl font-bold  mb-4">Contact Me</h2>
 

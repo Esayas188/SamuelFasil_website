@@ -28,7 +28,7 @@ const About = () => {
         initial='hidden'
         whileInView='visible'
 
-         id='about' className=" overflow-x-hidden md:min-h-[500px] w-full py-[30px] md:py-[80px]  md:px-[100px] lg:px-[120px] bg-[#b2b4b2] md:justify-center md:items-center md:grid md:grid-cols-2 ">
+         id='about' className=" overflow-x-hidden md:min-h-[500px] py-[30px] md:py-[80px]  md:px-[100px] lg:px-[120px] bg-[#b2b4b2] md:justify-center md:items-center md:grid md:grid-cols-2 " style={{ maxWidth: '1800px', margin: '0 auto' }}>
             <motion.div 
             variants={leftvariants}
 

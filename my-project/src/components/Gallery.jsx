@@ -10,7 +10,7 @@ const Gallery = () => {
 
 
 
-<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:px-[60px]  p-[40px]">
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:px-[60px]  p-[40px]" style={{ maxWidth: '1800px', margin: '0 auto' }}>
     <div className="grid gap-4">
         <div>
             <img className="h-auto max-w-full rounded-lg" src={project1} alt=""/>

@@ -31,7 +31,7 @@ const Navbar = () => {
     return (
         <>
 
-        <div className={` text-[#b2b4b2] text-[20px] header p-4 md:py-0 md:px-16 fixed top-0 left-0 w-full z-10   ${isSticky ? 'bg-[#07264a] ' : ' hidden'}`}  style={{transition: 'background-color 0.5s ease' }}>
+        <div className={` text-[#b2b4b2] text-[20px] header p-4 md:py-0 md:px-16 fixed top-0 left-0 right-0 w-full z-10   ${isSticky ? 'bg-[#07264a] ' : ' hidden'}`} style={{ maxWidth: '1800px', margin: '0 auto',transition: 'background-color 0.5s ease' }} >
         {menuOpen ? (
                         <span className=" text-[#b2b4b2] flex-1 font-bold text-xl ml-2 pr-4 md:hidden hover:cursor-pointer material-symbols-outlined "  onClick={toggleMenu}>menu</span>
                         ) : (

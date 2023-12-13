@@ -6,8 +6,8 @@ const Footer = () => {
     <div>
 
 
-<footer className="bg-white dark:bg-[#07264a]">
-    <div className="mx-auto w-full max-w-screen-xl">
+<footer className="bg-white dark:bg-[#07264a]" style={{ maxWidth: '1800px', margin: '0 auto' }}>
+    <div className="mx-auto w-full ">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
         <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>

@@ -37,7 +37,7 @@ const Logo = () => {
     }
 
     return ( 
-        <div className="flex justify-center items-center bg-black min-h-screen">
+        <div className="flex justify-center mx-[40px] items-center bg-black min-h-[600px]" style={{ maxWidth: '1800px', margin: '0 auto' }}>
 
 
 

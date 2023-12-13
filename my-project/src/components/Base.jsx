@@ -12,7 +12,7 @@ import { faFacebook,faInstagram,faTwitter } from '@fortawesome/free-brands-svg-i
 const Base = () => {
     return ( 
         <>
-        <div className=" md:min-h-screen min-h-[600px] bg-[#b2b4b2] grid md:grid-cols-2 sm:mb-[80px]">
+        <div className=" md:min-h-[800px] min-h-[600px] bg-[#b2b4b2] grid md:grid-cols-2 sm:mb-[80px]" style={{ maxWidth: '1800px', margin: '0 auto' }}>
             <div className="grid grid-cols-5   md:px-0" >
                 <div className='text-[#b2b4b2] flex flex-col justify-end pb-[60px] items-center bg-[#07264a] col-span-1' >
                     <p className='transform -rotate-90 text-xl font-bold '>Follow Me</p>
